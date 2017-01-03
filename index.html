@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WebDev Challenge 2</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cahee</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home-page">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <header id="home-page">
+    <div class="container page-header"> <!-- .page-header dodany padding 300px odpychajacy row od gory przegladarki -->
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Fresh Life</h1>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-md-4">
+          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrus exercitation ullamco.</p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-4">
+          <button type="button" class="btn">Get Free Now</button>
+        </div>
+      </div>
+      </div>
+        <a href="#about" class="scroll-button"></a> 
+    </header>
+
+
+    <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <img src="images/plate.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-6 col-xs-12 about-us">
+          <h2>About Us</h2>
+          <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="col-sm-6 services-img">
+          <h2>Our services</h2>
+        </div>
+        <div class="col-sm-6 services-btn-block">
+          <a href="#" class="service-btn">
+            <div class="btn-text">Online Shopping</div>
+            <div class="btn-icon shopping"></div>
+          </a>
+           <a href="#" class="service-btn">
+            <div class="btn-text">Quality Product</div>
+            <div class="btn-icon quality"></div>
+          </a>
+           <a href="#" class="service-btn">
+            <div class="btn-text">Domestic & International Dolivery</div>
+            <div class="btn-icon dolivery"></div>
+          </a>
+           <a href="#" class="service-btn">
+            <div class="btn-text">Well Organized</div>
+            <div class="btn-icon organized"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor is nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="images/peach.jpg" alt="peach" class="img-responsive">
+          </div>
+          <div class="col-lg-4">
+            <img src="images/berries.jpg" alt="berries" class="img-responsive">
+          </div>
+          <div class="col-lg-4">
+            <img src="images/blackberries.jpg" alt="blackberries" class="img-responsive">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/milk.jpg" alt="milk" class="img-responsive">
+          </div>
+          <div class="col-lg-6">
+            <img src="images/papaya.jpg" alt="papaya" class="img-responsive">
+          </div>
+        </div>
+        <button class="btn">View more</button>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Subscribe To Us</h2>
+            <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <input type="email" name="email" placeholder="Your email address">
+          </div>
+          <div class="col-md-2">
+            <button class="btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-push-3 header-page">
+            <h2>Blog</h2>
+            <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="blogg">
+              <img class="blog-img" src="images/coctail.png" alt="coctail image">
+              <div class="blog-img-date">
+                <div class="blog-img-date-month">20</div>
+                <div class="blog-img-date-day">Nov</div>
+              </div>
+              <div class="blog-img-text">
+                <h3>Green Smoothies: Too Much of a Good Thing?</h3>
+                <p>By Auskteez - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blogg">
+              <img class="blog-img" src="images/soup.png" alt="coctail image">
+              <div class="blog-img-date">
+                <div class="blog-img-date-month">20</div>
+                <div class="blog-img-date-day">Nov</div>
+              </div>
+              <div class="blog-img-text">
+                <h3>Green Smoothies: Too Much of a Good Thing?</h3>
+                <p>By Auskteez - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blogg">
+              <img class="blog-img" src="images/raspberry.png" alt="coctail image">
+              <div class="blog-img-date">
+                <div class="blog-img-date-month">20</div>
+                <div class="blog-img-date-day">Nov</div>
+              </div>
+              <div class="blog-img-text">
+                <h3>Green Smoothies: Too Much of a Good Thing?</h3>
+                <p>By Auskteez - 2 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn">View more</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-push-4">
+            <h2>Contact</h2>
+            <p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <form class="contact-form">
+              <input type="name" placeholder="Your Name">
+              <input type="email" placeholder="Your email">
+              <input type="tel" placeholder="Your phone number">
+              <textarea name="email-message" placeholder="Your message"></textarea>
+            </form>
+            <div class="col-md-2">
+              <button class="btn">Send</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-push-2">
+            <address>
+              <span>Address</span>
+              <p>123 City name, Street, City, Country</p>
+              <span>Email</span>
+              <p>cahee@domain.com</p>
+              <span>Phone</span>
+              <p>+012 345 6789</p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p>© 2015 Company. All right reserved.</p>
+          </div>
+          <div class="col-md-2 col-md-offset-1 logo">
+            <p>Cohee</p>
+          </div>
+          <div class="col-md-3 col-md-offset-2">
+            <p>Made with love by Auskteez</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/shrink.js"></script>
+
+  </body>
+</html>
